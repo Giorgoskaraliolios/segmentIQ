@@ -138,7 +138,7 @@ const DemoPage = () => {
                     Full demo dashboard with all features enabled
                   </p>
                   <Link
-                    to="/contact"
+                    to="/dashboard"
                     className="btn-primary inline-flex items-center"
                   >
                     <Play className="mr-2 h-5 w-5" />
