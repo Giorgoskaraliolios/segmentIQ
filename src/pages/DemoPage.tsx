@@ -104,9 +104,9 @@ const DemoPage = () => {
             <p className="text-lg md:text-xl text-gray-600 mb-8">
               Experience the power of AI-driven customer segmentation with our interactive demo
             </p>
-            <Link to="/contact" className="btn-primary text-lg">
+            <Link to="/dashboard" className="btn-primary text-lg">
               <Play className="inline-block mr-2 h-5 w-5" />
-              Watch Video Demo (2:30)
+              Try Interactive Demo
             </Link>
           </div>
         </div>
@@ -238,7 +238,7 @@ const DemoPage = () => {
               Start your free 14-day trial and see the difference SegmentIQ can make
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link to="/contact" className="btn-primary bg-white text-primary hover:bg-gray-100">
+              <Link to="/dashboard" className="btn-primary bg-white text-primary hover:bg-gray-100">
                 Start Free Trial
                 <ArrowRight className="inline-block ml-2 h-5 w-5" />
               </Link>

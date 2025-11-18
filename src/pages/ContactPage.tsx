@@ -256,10 +256,10 @@ const ContactPage = () => {
               Prefer to See It First?
             </h2>
             <p className="text-lg text-gray-600 mb-8">
-              Schedule a personalized demo and see how SegmentIQ can transform your marketing
+              Try our interactive demo and see how SegmentIQ can transform your marketing
             </p>
-            <a href="/demo" className="btn-primary text-lg">
-              Schedule a Demo
+            <a href="/dashboard" className="btn-primary text-lg">
+              Try Interactive Demo
             </a>
           </div>
         </div>

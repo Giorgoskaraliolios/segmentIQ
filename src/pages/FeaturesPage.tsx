@@ -228,7 +228,7 @@ const FeaturesPage = () => {
               Start your free 14-day trial and experience all features risk-free
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="/demo" className="btn-primary bg-white text-primary hover:bg-gray-100">
+              <a href="/dashboard" className="btn-primary bg-white text-primary hover:bg-gray-100">
                 Start Free Trial
                 <ArrowRight className="inline-block ml-2 h-5 w-5" />
               </a>
