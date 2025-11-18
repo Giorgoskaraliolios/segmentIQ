@@ -65,7 +65,7 @@ export function prioritizeSegments(segments: Segment[]): ROIMetrics[] {
   }))
 }
 
-export function getCampaignSuggestions(segment: Segment, roiScore: number): string[] {
+export function getCampaignSuggestions(segment: Segment): string[] {
   const suggestions: string[] = []
 
   if (segment.avgLifetimeValue > 2000) {

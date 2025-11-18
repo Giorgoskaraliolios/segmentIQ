@@ -8,7 +8,7 @@ interface Props {
 }
 
 const SegmentCard = ({ segment, metric }: Props) => {
-  const suggestions = getCampaignSuggestions(segment, metric.roiScore)
+  const suggestions = getCampaignSuggestions(segment)
 
   return (
     <div className="bg-white rounded-xl shadow-lg overflow-hidden">

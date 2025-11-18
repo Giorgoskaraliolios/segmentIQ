@@ -3,10 +3,7 @@ import {
   Heart,
   Lightbulb,
   Shield,
-  Award,
   Users,
-  TrendingUp,
-  Globe,
   Linkedin,
 } from 'lucide-react'
 

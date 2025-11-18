@@ -201,7 +201,7 @@ const DashboardPage = () => {
                       {selectedSegment.customers
                         .sort((a, b) => b.lifetimeValue - a.lifetimeValue)
                         .slice(0, 5)
-                        .map((customer, index) => (
+                        .map((customer) => (
                           <div
                             key={customer.id}
                             className="flex items-center justify-between p-3 bg-gray-50 rounded-lg"
