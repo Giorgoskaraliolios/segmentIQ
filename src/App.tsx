@@ -15,8 +15,8 @@ function AppContent() {
 
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-b from-white to-gray-50">
-      {!isDashboard && <Navigation />}
-      <main className={isDashboard ? '' : 'flex-grow'}>
+      <Navigation />
+      <main className="flex-grow">
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
