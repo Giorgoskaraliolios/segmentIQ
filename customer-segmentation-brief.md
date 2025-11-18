@@ -1,7 +1,11 @@
-# Customer Segmentation Explorer - SaaS Platform Briefing Document
+# SegmentIQ - SaaS Platform Briefing Document
 
 ## Project Overview
-Create a professional SaaS (Software as a Service) website that offers customer segmentation analytics as a commercial product. The site includes marketing pages, product information, authentication, and the full-featured segmentation dashboard application.
+Create a professional SaaS (Software as a Service) website called **SegmentIQ** that offers customer segmentation analytics as a commercial product. The site includes marketing pages, product information, authentication, and the full-featured segmentation dashboard application.
+
+**Brand Name:** SegmentIQ
+**Tagline:** "Smart Segmentation. Smarter Decisions."
+**Domain:** segmentiq.com (placeholder)
 
 ## Technical Stack
 - **Framework:** React with TypeScript
@@ -210,7 +214,7 @@ Each feature includes:
 - "I'm interested in:" dropdown (Demo, Partnership, Support, Other)
 
 **Contact Information:**
-- Email: hello@segmentexplorer.com
+- Email: hello@segmentiq.com
 - Phone: (555) 123-4567
 - Address: 123 Market St, San Francisco, CA
 
@@ -405,7 +409,7 @@ Turn your customer data into laser-focused marketing strategies that drive real 
 Our AI-powered ROI scoring tells you which customer segments deserve your attention right now, saving you weeks of analysis."
 
 **About Page:**
-"We built Segment Explorer because marketers deserve better than spreadsheets and gut feelings. Our mission is to make enterprise-grade customer analytics accessible to every growth team."
+"We built SegmentIQ because marketers deserve better than spreadsheets and gut feelings. Our mission is to make enterprise-grade customer analytics accessible to every growth team."
 
 ## Technical Implementation Details
 
@@ -458,10 +462,11 @@ Generate 300-500 customers with realistic distributions:
 
 ## File Structure
 ```
-/segment-explorer-saas
+/segmentiq
   /public
     /images
       logo.svg
+      segmentiq-logo.png
       hero-image.png
       team-photos/
       feature-screenshots/
