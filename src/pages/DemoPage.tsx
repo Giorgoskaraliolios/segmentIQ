@@ -6,7 +6,6 @@ import {
   TrendingDown,
   MapPin,
   ArrowRight,
-  Sparkles,
 } from 'lucide-react'
 
 const DemoPage = () => {
