@@ -292,7 +292,7 @@ const HomePage = () => {
             <p className="text-lg text-gray-600 mb-8">
               Join 500+ marketing teams making smarter decisions with SegmentIQ
             </p>
-            <Link to="/dashboard" className="btn-primary text-lg">
+            <Link to="/trial" className="btn-primary text-lg">
               Start Your Free Trial
               <ArrowRight className="inline-block ml-2 h-5 w-5" />
             </Link>
