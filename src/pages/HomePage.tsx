@@ -209,7 +209,7 @@ const HomePage = () => {
                     <p className="text-gray-600">{step.description}</p>
                   </div>
                   {index < steps.length - 1 && (
-                    <div className="hidden md:block absolute top-8 left-1/2 w-full h-0.5 bg-gradient-to-r from-primary to-accent"></div>
+                    <div className="hidden md:block absolute top-8 left-[50%] w-[calc(100%+2rem)] h-0.5 bg-gradient-to-r from-primary to-accent z-0"></div>
                   )}
                 </div>
               ))}
