@@ -193,7 +193,7 @@ const HomePage = () => {
             </p>
           </div>
           <div className="max-w-5xl mx-auto">
-            <div className="grid md:grid-cols-3 gap-8">
+            <div className="grid md:grid-cols-3 gap-8 relative">
               {steps.map((step, index) => (
                 <div key={index} className="relative">
                   <div className="text-center">
@@ -209,7 +209,7 @@ const HomePage = () => {
                     <p className="text-gray-600">{step.description}</p>
                   </div>
                   {index < steps.length - 1 && (
-                    <div className="hidden md:block absolute top-8 left-full w-full h-0.5 bg-gradient-to-r from-primary to-accent -ml-4"></div>
+                    <div className="hidden md:block absolute top-8 left-1/2 w-full h-0.5 bg-gradient-to-r from-primary to-accent"></div>
                   )}
                 </div>
               ))}
