@@ -125,29 +125,6 @@ const DemoPage = () => {
               </p>
             </div>
 
-            {/* Demo Preview */}
-            <div className="bg-gradient-to-br from-gray-100 to-gray-200 rounded-2xl shadow-2xl p-8 mb-8">
-              <div className="aspect-video bg-white rounded-lg shadow-inner flex items-center justify-center relative overflow-hidden">
-                <div className="absolute inset-0 bg-gradient-to-br from-primary-50 to-accent-50 opacity-50"></div>
-                <div className="relative z-10 text-center">
-                  <Sparkles className="h-16 w-16 text-primary mx-auto mb-4" />
-                  <h3 className="text-2xl font-bold text-gray-900 mb-2">
-                    Interactive Dashboard Preview
-                  </h3>
-                  <p className="text-gray-600 mb-6">
-                    Full demo dashboard with all features enabled
-                  </p>
-                  <Link
-                    to="/dashboard"
-                    className="btn-primary inline-flex items-center"
-                  >
-                    <Play className="mr-2 h-5 w-5" />
-                    Launch Interactive Demo
-                  </Link>
-                </div>
-              </div>
-            </div>
-
             {/* Demo Features */}
             <div className="grid md:grid-cols-3 gap-6">
               {demoFeatures.map((feature, index) => (
