@@ -53,9 +53,9 @@ const Navigation = () => {
             <button className="text-primary font-semibold hover:text-primary-700 transition-colors">
               Log In
             </button>
-            <button className="btn-primary text-sm lg:text-base">
+            <Link to="/trial" className="btn-primary text-sm lg:text-base">
               Start Free Trial
-            </button>
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -94,9 +94,9 @@ const Navigation = () => {
                 <button className="text-primary font-semibold py-2 text-left px-4">
                   Log In
                 </button>
-                <button className="btn-primary w-full">
+                <Link to="/trial" className="btn-primary w-full text-center">
                   Start Free Trial
-                </button>
+                </Link>
               </div>
             </div>
           </div>

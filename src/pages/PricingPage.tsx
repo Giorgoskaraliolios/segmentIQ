@@ -180,7 +180,7 @@ const PricingPage = () => {
                 </div>
 
                 <Link
-                  to={plan.price.monthly !== null ? "/dashboard" : "/contact"}
+                  to={plan.price.monthly !== null ? "/trial" : "/contact"}
                   className={`block w-full text-center py-3 rounded-lg font-semibold mb-6 transition-all ${
                     plan.popular
                       ? 'btn-primary'
@@ -266,7 +266,7 @@ const PricingPage = () => {
             <p className="text-lg text-primary-100 mb-8">
               Start your free 14-day trial. No credit card required.
             </p>
-            <Link to="/dashboard" className="btn-primary bg-white text-primary hover:bg-gray-100 text-lg">
+            <Link to="/trial" className="btn-primary bg-white text-primary hover:bg-gray-100 text-lg">
               Start Free Trial
               <ArrowRight className="inline-block ml-2 h-5 w-5" />
             </Link>

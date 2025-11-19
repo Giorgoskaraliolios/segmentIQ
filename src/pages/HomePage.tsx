@@ -117,11 +117,11 @@ const HomePage = () => {
               AI-powered segmentation that tells you exactly which customers to target—and why. Stop guessing. Start growing.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <Link to="/dashboard" className="btn-primary text-lg w-full sm:w-auto">
+              <Link to="/trial" className="btn-primary text-lg w-full sm:w-auto">
                 Start Free Trial
                 <ArrowRight className="inline-block ml-2 h-5 w-5" />
               </Link>
-              <Link to="/dashboard" className="btn-secondary text-lg w-full sm:w-auto">
+              <Link to="/demo" className="btn-secondary text-lg w-full sm:w-auto">
                 Try Interactive Demo
               </Link>
             </div>

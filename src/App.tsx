@@ -8,6 +8,7 @@ import PricingPage from './pages/PricingPage'
 import DemoPage from './pages/DemoPage'
 import ContactPage from './pages/ContactPage'
 import DashboardPage from './pages/DashboardPage'
+import TrialSignupPage from './pages/TrialSignupPage'
 
 function AppContent() {
   const location = useLocation()
@@ -24,6 +25,7 @@ function AppContent() {
           <Route path="/pricing" element={<PricingPage />} />
           <Route path="/demo" element={<DemoPage />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="/trial" element={<TrialSignupPage />} />
           <Route path="/dashboard" element={<DashboardPage />} />
         </Routes>
       </main>

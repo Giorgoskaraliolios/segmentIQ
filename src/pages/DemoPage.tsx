@@ -214,7 +214,7 @@ const DemoPage = () => {
               Start your free 14-day trial and see the difference SegmentIQ can make
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link to="/dashboard" className="btn-primary bg-white text-primary hover:bg-gray-100">
+              <Link to="/trial" className="btn-primary bg-white text-primary hover:bg-gray-100">
                 Start Free Trial
                 <ArrowRight className="inline-block ml-2 h-5 w-5" />
               </Link>
